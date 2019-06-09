@@ -1,2 +1,2 @@
-# guthub-demo
+# github-demo
 Udemy Demo free course
