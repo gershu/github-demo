@@ -1,0 +1,45 @@
+  676  ll
+  677  mkdir projects
+  678  cd projects
+  679  pwd
+  680  git version
+  681  git config --global user.name "Stefan Hummel"
+  682  git config --global user.email "shu.tec.ger@gmail.com"
+  683  git config --global --list
+  684  git clone https://github.com/gershu/github-demo.git
+  685  ls
+  686  cd git github-demo/
+  687  cd git github-demo
+  688  ll
+  689  cd github-demo
+  690  ls
+  691  git status
+  692  ls
+  693  clear
+  694  echo space "Test Git Quick Start demo" >> start.txt
+  695  cat *
+  696  ll
+  697  less start.txt
+  698  git status
+  699  git add start.txt
+  700  git status
+  701  git commit -m "Adding start text file"
+  702  git status
+  703  git push origin master
+  704  which git
+  705  ll /usr/bin/g*
+  706  ll /usr/bin/gi*
+  707  cd /usr/bin/git
+  708  /usr/bin/git -versin
+  709  /usr/bin/git version
+  710  sudo xcode-select --install
+  711  /usr/bin/git version
+  712  hist
+  713  history
+  714  pwd
+  715  history | tail -20
+  716  history | tail -25
+  717  history | tail -30
+  718  history | tail -40 | head -5
+  719  history | tail -45 | head -5
+  720  history | tail -45 > git_commands.txt
