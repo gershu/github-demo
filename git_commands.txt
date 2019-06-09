@@ -1,37 +1,43 @@
-  mkdir projects
-  cd projects
-  pwd
-  
-  git version
-  
-  git config --global user.name "Stefan Hummel"
-  git config --global user.email "shu.tec.ger@gmail.com"
-  
-  git config --global --list
-  git clone https://github.com/gershu/github-demo.git
-  
-  cd github-demo
-  ls
-  git status
-  ls
-  clear
-  echo space "Test Git Quick Start demo" >> start.txt
-  cat *
-  ll
-  less start.txt
-  git status
-  git add start.txt
-  git status
-  git commit -m "Adding start text file"
-  git status
-  git push origin master
-  which git
-  cd /usr/bin/git
-  /usr/bin/git -versin
-  /usr/bin/git version
-  sudo xcode-select --install
-  /usr/bin/git version
-  
+
+
+/****************************************/
+/* the very first commands */              
+/****************************************/
+
+mkdir projects
+cd projects
+pwd
+
+git version
+
+git config --global user.name "Stefan Hummel"
+git config --global user.email "shu.tec.ger@gmail.com"
+
+git config --global --list
+git clone https://github.com/gershu/github-demo.git
+
+cd github-demo
+ls
+git status
+ls
+clear
+echo space "Test Git Quick Start demo" >> start.txt
+cat *
+ll
+less start.txt
+git status
+git add start.txt
+git status
+git commit -m "Adding start text file"
+git status
+git push origin master
+which git
+cd /usr/bin/git
+/usr/bin/git -versin
+/usr/bin/git version
+sudo xcode-select --install
+/usr/bin/git version
+
 /* ------------------------------------*/
 New git project
 /* ------------------------------------*/
