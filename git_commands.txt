@@ -9,9 +9,7 @@
   
   git config --global --list
   git clone https://github.com/gershu/github-demo.git
-  ls
-  cd git github-demo
-  ll
+  
   cd github-demo
   ls
   git status
