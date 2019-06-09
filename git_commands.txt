@@ -32,3 +32,26 @@
   sudo xcode-select --install
   /usr/bin/git version
   
+/* ------------------------------------*/
+New git project
+/* ------------------------------------*/
+
+cd projects 
+
+git init fresh-project
+cd fresh-project 
+ll
+ls
+ls -la
+ls -all
+git status
+pwd
+vi hipster.txt
+git status
+git add hipster.txt
+git status
+git commit
+git status
+cd ..
+ls
+rm -rf fresh-project
